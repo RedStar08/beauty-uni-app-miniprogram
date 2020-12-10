@@ -11,7 +11,7 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello this is a demo page.'
 			}
 		},
 		onLoad() {
@@ -23,27 +23,26 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	.content {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin: 200rpx auto 50rpx auto;
+		.logo {
+			height: 200rpx;
+			width: 200rpx;
+			margin: 200rpx auto 50rpx auto;
+		}
+		.title {
+			font-size: 36rpx;
+			color:$uni-text-color;
+		}
 	}
 
 	.text-area {
 		display: flex;
 		justify-content: center;
 	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
+	
 </style>
