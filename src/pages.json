@@ -1,8 +1,39 @@
 {
-  "pages": [{
+  "pages": [
+    {
+      "path": "pages/video/index",
+      "style": {
+        "navigationBarTitleText": "精美视频"
+      }
+    },
+    {
       "path": "pages/home/index",
       "style": {
         "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/image-detail/index",
+      "style": {
+        "navigationBarTitleText": "图片详情"
+      }
+    },
+    {
+      "path": "pages/video-play/index",
+      "style": {
+        "navigationBarTitleText": "视频播放"
+      }
+    },
+    {
+      "path": "pages/image-category/index",
+      "style": {
+        "navigationBarTitleText": "图片分类"
+      }
+    },
+    {
+      "path": "pages/album/index",
+      "style": {
+        "navigationBarTitleText": "专辑-详情"
       }
     },
     {
@@ -15,12 +46,6 @@
       "path": "pages/search/index",
       "style": {
         "navigationBarTitleText": "搜索"
-      }
-    },
-    {
-      "path": "pages/video/index",
-      "style": {
-        "navigationBarTitleText": "精美视频"
       }
     },
     {
@@ -42,7 +67,8 @@
     "backgroundColor": "#fff",
     "position": "bottom",
     "borderStyle": "black",
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/home/index",
         "text": "首页",
         "iconPath": "./static/icon/_home.png",
